@@ -21,14 +21,13 @@ print("="*50)
 # menggunakan return mengembalikan nilai variabel 
 # contoh 2.
 def testtungluasgluas(panjang,lebar):
-    testtungluas = panjang * luas 
-    return testtungluas
-    print("Hasil kelipatan : ",testtungluas)
+    testtingluas = panjang * lebar 
+    return testtingluas
+    print("Hasil kelipatan :",testtungluas)
 
 panjang = int(input('Masukan panjang: '))
-luas = int(input('Masukan luas: '))
-print("Luas panjang dan : ",testtungluasgluas(panjang,luas)) # memanggil variabel panjang dan luas 
-
+lebar = int(input('Masukan luas: '))
+print("Luas panjang dan : ",testtungluasgluas(panjang,lebar))
 
 print("="*50)
 
