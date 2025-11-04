@@ -1,0 +1,20 @@
+def testing():
+    batas = int(input("Masukan batas: "))
+    for i in range(batas):
+        print("="*50)
+        nama = input("Masukan nama: ")
+        belanja1 = input("Belanja1: ")
+        belanja2 = input("Belanja2: ")
+        belanja3 = input("Belanja3: ")
+        totalbelanja1 = int(input("Masukan total belanja1: "))
+        totalbelanja2 = int(input("Masukan total belanja2: "))
+        totalbelanja3 = int(input("Masukan total belanja3: "))
+        print("="*50)
+        print("Daftar Nama dan apa yang anda belanja")
+        print(nama)
+        print(belanja1)
+        print(belanja2)
+        print(belanja3)
+        print(f'Total Belanja yang harus di bayar: {totalbelanja1 + totalbelanja2 + totalbelanja3}')
+testing()
+        
