@@ -7,7 +7,8 @@ buah.append('duku')
 buah.append('nangka')
 buah.append('semangka')
 buah.append('nag')
-# fungsi append adalah
+# fungsi append adalah penamabahan data dalam bentuk list / digabung dalam bentuk list[]
+# harus dalam bentuk sebuah list jika tidak maka data tersebut tidak akan tergabung
 
 print("===========================") # output garis pemisah
 print(buah) # output keluar tetapi outputnya keluar semua
@@ -33,3 +34,8 @@ for i in buah:
     print(f"Buah: {i}") # fungsi for i in buah adalah untuk mencetak semua elemen dalam array
 
 # fungsi for i in range adalah untuk mencetak semua elemen dalam array
+
+# append dalam khasus penambahan data
+a = ['radit']
+a.append('nigga') # Membuat data dalam list string radit dan menambahkan sebuah data bernama nigga maka hasil nya kedua data akan tergabung
+print(a) # ['radit','nigga']
