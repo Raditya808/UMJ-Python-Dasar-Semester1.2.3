@@ -3,7 +3,7 @@ belanja = []
 batas= int(input("Masukkan batas belanja: "))
 
 for i in range(batas):
-    barang = input(f"Masukkan nama barang ke - {i+1}: ")
+    barang = input(f"Masukkan nama barang ke - {i+1}: ") # fungsi i + 1 yaitu penamaan data dimulai dari 1 dan bukan dari 0
     belanja.append(barang)
 
 
